@@ -1,35 +1,82 @@
-# Admin Fontein-v1.3
-## Table of Contents
+# Sistem Informasi UMKM Kelurahan Oetete-v1.3 
+## 📕Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Scripts](#scripts)
-- [Dependencies](#dependencies)
-- [Dev Dependencies](#dev-dependencies)
+    - [Built With](#built-with)
+    - [Prerequisites](#prerequisites)
+- [Setup & Installation](#setup--installation)
+- [Roadmap](#roadmap)
+- [Under Construction](#under-construction)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 
-**admin-fontein-v1.3** is a Node.js-based project that leverages various packages for web development, including Express for server-side handling, Mongoose for MongoDB interactions, and Sequelize for SQL database interactions. It is designed to facilitate robust and secure web applications with session management, authentication, and templating capabilities.
+**Sistem Informasi UMKM Kelurahan Oetete-v1.3** adalah proyek berbasis Node.js yang memanfaatkan berbagai paket untuk pengembangan web, termasuk Express untuk penanganan sisi server, Mongoose untuk interaksi dengan MongoDB, dan Sequelize untuk interaksi dengan database SQL. Sistem ini bertujuan untuk membantu usaha mikro, kecil, dan menengah (UMKM) di Kelurahan Oetete dalam mengelola informasi dan operasi mereka secara efektif.
 
-## Features
 
-- **Express**: Fast, unopinionated, minimalist web framework for Node.js
-- **Mongoose**: Elegant MongoDB object modeling for Node.js
-- **Sequelize**: Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server
-- **EJS**: Embedded JavaScript templating
-- **bcrypt**: Password hashing function for security
-- **Session Management**: Using `express-session` and `connect-mongo`
-- **Method Override**: Allows using PUT or DELETE methods in places where the client doesn't support it
-- **Environment Variables**: Managed by `dotenv`
+## ⚙️  Built With
 
-## Installation
+- **pnpm**: pnpm adalah pengelola paket yang khusus dirancang untuk project Node.js. Fungsinya mirip dengan npm (Node Package Manager).
+- **Express**: web Framework yang digunakan dalam pengembangan project Node.Js.
+- **Mongoose**: digunakan sebagai penyimpanan data.
+- **EJS**: Embedded JavaScript Templating atau "Effective JavaScript Templating" tergantung interpretasi merupakan sebuah bahasa templating yang simpel untuk Node.js
+- **Session Management**: Menggunakan `express-session` and `connect-mongo`
+- **Method Override**: Memungkinkan penggunaan metode PUT atau DELETE di tempat yang tidak didukung oleh klien.
+- **dotenv**: Mengelola env variable yang digunakan dalam projetc web dengan `dotenv`
+
+###  Prerequisites
+Pastikan Anda sudah menginstall software berikut:
+- ![Node.js](https://img.shields.io/badge/Node.js-20.13.1-green)  (versi 20.13.1 atau lebih baru)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-9.3.0-green) (mongodb.com)
+- ![pnpm](https://img.shields.io/badge/pnpm-9.3.0-orange) (versi 9.3.0 atau lebih baru)
+##  Setup & Installation:
 
 1. **Clone the repository:**
-
    ```bash
    git clone https://github.com/yourusername/admin-fontein-v1.3.git
    cd admin-fontein-v1.3
+   
+1. **Install Packages:**
+   ```bash
+   $ pnpm install
+   
+1. **Setup env files:**
+Siapkan file `.env.development` jika dalam lingkup pengembangan dan file `.env.production` dalam lingkup produksi.
+
+4. **Run Program**
+jalankan perintah `pnpm run start` atau `pnpm run dev` jika dalam development
+   ```bash
+   $ pnpm run dev
+   
+
+## Roadmap:
+Properly implement reusable configs
+- [ ] integrasi eslint untuk code linting.
+## 🚧 Under Construction
+Terdapat beberapa kemungkinan penambahan fitur dan perbaikan di masa mendatang. Berikut adalah beberapa fitur dan perbaikan yang mungkin akan ditambahkan:
+- [ ] export data into CSV
+## Contributing:
+Kontribusi Anda adalah yang membuat komunitas open-source menjadi tempat yang luar biasa untuk belajar, berinspirasi, dan berkarya. Kontribusi apa pun yang Anda berikan akan sangat kami hargai.
+
+1. **Fork Repository (Pisahkan Repositori)**
+2. **Buat Branch Fitur Anda**
+   ```bash
+   git checkout -b fitur/FiturKeren
+3. **Commit Perubahan Anda**
+   ```bash
+   git commit -m 'Tambah FiturKeren'
+3. **Push ke Branch**
+   ```bash
+   git push origin fitur/FiturKeren
+3. **Buka Pull Request (permintaan penggabungan)**
+
+
+## License:
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+- ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+## Contact:
+- 📧 E-Mail - stuffofyos1516@gmail.com
+- Project Link: https://github.com/Joshtri/fontein-si-umkm-1.3
